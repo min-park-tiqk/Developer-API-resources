@@ -51,10 +51,10 @@ let
  
     // Obtain a valid AuthToken
    
-    // Concatenate the organisation's TIQK API Key & Secret, and convers to base64
+    // Concatenate the organisation's TIQK API Key & Secret, and convert to base64
     
-    // If you are using Query Parameters named, use the following string format
-    // (This assumes you have 2 parameters called: APIKey, APISecret)
+    // If you are using named Query Parameters, use the following string format
+    // (This assumes you have 2 parameters named: APIKey, APISecret)
     // apiKeySecretConcatenated = #"APIKey" & ":" & #"APISecret",
     
     apiKeySecretConcatenated = "<your API Key>" & ":" & "<your API Secret>",
